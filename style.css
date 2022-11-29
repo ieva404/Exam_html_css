@@ -90,9 +90,17 @@ SECTION 2
 ******************/
 
 .section-2 {
-  background-color: yellow;
-  width: 100%;
-  height: 10vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(235, 90, 114),
+    orange,
+    rgb(201, 196, 86)
+  );
+  height: 20vh;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 /* ***************
