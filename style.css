@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  transition: 1s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+head {
+  display: none;
+}
+
+body {
+  display: block;
+}
+
+header {
+  background-color: darkorange;
+}
+.logo {
+  background-color: aqua;
+  display: inline-block;
+}
+nav {
+  display: inline-block;
+  float: right;
+}
+
+.section-1 {
+  background-color: yellowgreen;
+  width: 100%;
+  height: 10vh;
+}
+.section-2 {
+  background-color: yellow;
+  width: 100%;
+  height: 10vh;
+}
+.section-3 {
+  background-color: yellowgreen;
+  width: 100%;
+  height: 10vh;
+}
+.section-4 {
+  background-color: yellow;
+  width: 100%;
+  height: 10vh;
+}
+.section-5 {
+  background-color: yellowgreen;
+  width: 100%;
+  height: 10vh;
+}
+
+footer {
+  background-color: orange;
+}
+footer p {
+  color: grey;
+}
