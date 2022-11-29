@@ -97,7 +97,7 @@ SECTION 2
     rgb(201, 196, 86)
   );
   height: 20vh;
-  padding: 25px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -110,7 +110,58 @@ SECTION 3
 .section-3 {
   background-color: yellowgreen;
   width: 100%;
-  height: 10vh;
+  /* height: 60vh; */
+}
+
+.icons-3s {
+  background-color: brown;
+  display: flex;
+}
+
+.a {
+  width: 50%;
+}
+
+.text-3s {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+  .icons-3s {
+    flex-wrap: wrap;
+    background-color: gray;
+  }
+  .a {
+    width: 50%;
+  }
+}
+
+.cards-3s {
+  background-color: brown;
+  display: flex;
+  flex-wrap: wrap;
+
+  /* width: 60vh; */
+}
+
+#cards-3s {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 20vh;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 10px);
 }
 
 /* ***************
