@@ -76,7 +76,6 @@ Burger menu
 .menu-button-container {
   display: none;
   cursor: pointer;
-  /* flex-direction: column; */
   align-items: flex-end;
   margin-right: 30px;
 }
@@ -276,9 +275,7 @@ SECTION 3
 ******************/
 
 .section-3 {
-  /* background-color: yellowgreen; */
   width: 100%;
-  /* height: 60vh; */
 }
 
 .icons-3s {
@@ -314,16 +311,12 @@ SECTION 3
   .cards-3s {
     overflow-x: auto;
     max-height: 35vh;
-    /* margin: 0 auto; */
   }
 }
 
 .cards-3s {
-  /* background-color: brown; */
   display: flex;
   flex-wrap: wrap;
-
-  /* width: 60vh; */
 }
 
 #cards-3s {
@@ -332,7 +325,6 @@ SECTION 3
   flex-direction: row;
   width: 250px;
   height: 35vh;
-  /* padding: 20px; */
   border-radius: 5px;
   margin-left: 20px;
   gap: 60px;
@@ -360,24 +352,15 @@ SECTION 4
 ******************/
 
 .section-4 {
-  /* background-color: yellow; */
   width: 100%;
   height: 10vh;
 }
-
-/* .section4_img {
-  background-image: url("./images/upsell-footer-image.svg");
-  grid-column: 3 / span 6;
-  grid-row: 1 / span 6;
-  box-sizing: border-box;
-} */
 
 /* ***************
 SECTION 5 
 ******************/
 
 .section-5 {
-  /* background-color: yellowgreen; */
   width: 100%;
   height: 40vh;
   display: flex;
@@ -385,19 +368,15 @@ SECTION 5
 }
 
 .left {
-  /* background-color: crimson; */
   width: 100%;
   height: 100px;
   padding: 20px;
 }
 
 .right {
-  /* background-color: blue; */
-  /* width: 100%; */
   height: 100px;
   display: flex;
   flex-direction: row;
-  /* float: right; */
   padding: 20px;
 }
 
@@ -415,7 +394,6 @@ SECTION 5
 }
 
 .mini-icons-3s {
-  /* background-color: cornflowerblue; */
   width: 100%;
   height: 10px;
   display: flex;
@@ -443,7 +421,6 @@ SECTION 5
 }
 
 .right-items {
-  /* background-color: aqua; */
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -454,13 +431,11 @@ SECTION 5
     height: 250px;
   }
   .right {
-    /* background-color: rgb(37, 236, 67); */
     width: 100%;
     height: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    /* height: 200px; */
   }
 }
 
