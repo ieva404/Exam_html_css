@@ -40,7 +40,7 @@ SECTION 1
   background-color: yellowgreen;
   display: inline-block;
   width: 100%;
-  height: 50vh;
+  height: 70vh;
 }
 
 .container {
@@ -101,6 +101,13 @@ SECTION 2
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+@media (min-width: 600px) {
+  .section-2 {
+    margin: 20px;
+    border-radius: 10px;
+  }
 }
 
 /* ***************
@@ -181,7 +188,68 @@ SECTION 5
 .section-5 {
   background-color: yellowgreen;
   width: 100%;
-  height: 10vh;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  background-color: crimson;
+  width: 100%;
+  height: 100px;
+}
+
+.right {
+  background-color: blue;
+  /* width: 100%; */
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  /* float: right; */
+}
+
+@media (min-width: 600px) {
+  .section-5 {
+    flex-direction: row;
+  }
+
+  .left {
+    width: 50%;
+  }
+  .right {
+    width: 50%;
+  }
+}
+
+.mini-icons-3s {
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+.right-items {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .section-5 {
+    height: 250px;
+  }
+  .right {
+    background-color: rgb(37, 236, 67);
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* height: 200px; */
+  }
 }
 
 /* ***************
